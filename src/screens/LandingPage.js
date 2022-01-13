@@ -6,16 +6,16 @@ import classes from "./LandingPage.module.css";
 export default function LandingPage() {
   return (
     <div className={classes.group}>
-      <h1>Hello professor! </h1>
+      <h1>Hello! </h1>
       <h2>
-        This page exist only to show that switch from react-rooter-dom can be
-        nested. Other two screens have navigation menu.
+        This page exists only to show that the Switch component from
+        react-rooter-dom can be nested. Other two screens have navigation menu.
       </h2>
       <h3>
-        Go on, by clicking on [Enjoy] button you will enter in my web
-        application that has two screens, one screen shows all it products that
-        are stored inside firebase database on a web (I have used fetch) and 2nd
-        screen contains a form that can add new product inside firebase
+        Continue by clicking on the [Enjoy] button as you enter my web
+        application that has two screens. One screen shows all IT products that
+        are stored inside the firebase database on web (I have used fetch). The
+        second screen contains a form that can add new products to the firebase
         database.
       </h3>
       <Link to="/it-products" className={classes.buttonEnjoy}>
