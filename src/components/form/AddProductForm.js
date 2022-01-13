@@ -4,7 +4,7 @@ import Card from "../card/Card";
 import classes from "./AddProductForm.module.css";
 
 export default function AddProductForm(props) {
-  const titleInputRef = useRef();
+  const titleInputRef = useRef(); //pamti vrednosti i kada se renderuje aplikacija
   const imageUrlInputRef = useRef();
   const priceInputRef = useRef();
   const descriptionInputRef = useRef();

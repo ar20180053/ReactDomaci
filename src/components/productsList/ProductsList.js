@@ -12,7 +12,7 @@ export default function ProductsList(props) {
           id={prod.id}
           imageUrl={prod.imageUrl}
           title={prod.title}
-          address={prod.price}
+          price={prod.price}
           description={prod.description}
         />
       ))}
