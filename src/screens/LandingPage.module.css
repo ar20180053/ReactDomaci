@@ -1,0 +1,28 @@
+.group {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttonEnjoy {
+  cursor: pointer;
+  background-color: rgb(19, 88, 120);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border: 1px solid rgb(19, 88, 120);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0.6rem 3rem;
+}
+.buttonEnjoy:hover,
+.buttonEnjoy:active,
+.buttonEnjoy.active {
+  background-color: #9cb143;
+  border-color: #9cb143;
+}
