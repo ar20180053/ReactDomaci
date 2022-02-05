@@ -9,7 +9,7 @@ export default function LandingPage() {
       <h1>Hello! </h1>
       <h2>
         This page exists only to show that the Switch component from
-        react-rooter-dom can be nested. Other two screens have navigation menu.
+        react-router-dom can be nested. Other two screens have navigation menu.
       </h2>
       <h3>
         Continue by clicking on the [Enjoy] button as you enter my web
